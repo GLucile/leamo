@@ -12,7 +12,11 @@
         <div class="row">
           <div class="col-12">
             <nav>
-              <img src="./img/leamo-logo.webp" alt="logo leamo" />
+              <img
+                class="we-logo"
+                src="./img/leamo-logo.webp"
+                alt="logo leamo"
+              />
               <a href="#products">Produits</a>
               <a href="#values">Valeurs</a>
               <a href="#recipes">Recettes</a>
@@ -22,7 +26,9 @@
                 href="https://altershop.fr/blogs/les-producteurs-altershop/leamo"
                 >Shop
               </a>
-              <a href="#" class="we-search">search</a>
+              <a href="#" class="we-search">
+                <img src="img/search-icon.webp" alt="search icon" />
+              </a>
             </nav>
           </div>
         </div>
@@ -43,32 +49,33 @@
                   Ce cola <b>pétillant</b> est <b>rafraîchissant</b> et 
                   <b>authentique</b>, grâce à sa recette <b>moins sucrée</b> et 
                   à la composition totalement <b>transparente</b>.
-                  <div class="pro-labbels">
-                    <div class="en-bio">
-                      <img class="pro-engagement" src="img/lo-bio@2x.webp" 
-                      alt="logo bio"> <br>
-                      <p>Produit bio</p>
-                    </div>
-                    <div class="en-bio">
-                      <img class="pro-engagement" src="img/lo-vegan@2x.webp" 
-                      alt="vegan logo"> <br>
-                      <p>Vegan</p>
-                    </div>
-                    <div class="en-bio">
-                      <img class="pro-engagement" src="img/lo-gluten.png" 
-                      alt="gluten logo"> <br>
-                      <p>Sans gluten</p>
-                    </div>
-                    <div class="en-bio">
-                      <img class="pro-engagement" 
-                      src="img/lo-réutilisable@2x.webp" 
-                      alt="reusable logo"> <br>
-                      <p>Emballage <br> recyclable</p>
-                    </div>
+                </p>
+                <div class="pro-labbels">
+                  <div class="en-bio">
+                    <img class="pro-engagement" src="img/lo-bio@2x.webp" 
+                    alt="logo bio"> <br>
+                    <p>Produit bio</p>
                   </div>
-                  <div class="pro-accordeon">
-                    <p>Ingrédients</p>
+                  <div class="en-bio">
+                    <img class="pro-engagement" src="img/lo-vegan@2x.webp" 
+                    alt="vegan logo"> <br>
+                    <p>Vegan</p>
                   </div>
+                  <div class="en-bio">
+                    <img class="pro-engagement" src="img/lo-gluten.png" 
+                    alt="gluten logo"> <br>
+                    <p>Sans gluten</p>
+                  </div>
+                  <div class="en-bio">
+                    <img class="pro-engagement" 
+                    src="img/lo-réutilisable@2x.webp" 
+                    alt="reusable logo"> <br>
+                    <p>Emballage <br> recyclable</p>
+                  </div>
+                </div>
+                <div class="pro-accordeon">
+                  <p>Ingrédients</p>
+                </div>
                 </p>
               </div>
             </div>
@@ -138,41 +145,51 @@
         </div>
       </div>
     </div>
-    <div class="footer">
+    <footer>
       <div class="container">
         <div class="row">
           <div class="col-12">
             <div class="row">
-              <div class="col-12 fo-leamo-logo">
-                <img src="img/leamo-logo.webp" alt="leamo logo" />
+              <div class="col-12 col-md-3">
+                <img
+                  class="fo-leamo-logo"
+                  src="img/leamo-logo.webp"
+                  alt="leamo logo"
+                />
               </div>
-              <div class="col-12 fo-contact">
+              <div class="col-12 col-md-4 offset-md-1 fo-contact">
                 <h4>Contact</h4>
                 <br />
                 <a href="mailto:leamo-contact@gmail.com">
                   leamo-contact@gmail.com
                 </a>
                 <br />
-                <h4>Shop</h4>
+                <h4 class="fo-shop">Shop</h4>
                 <a href="https://https://altershop.fr/collections/leamo">
                   altershop.fr
                 </a>
               </div>
-              <div class="col-12 fo-social">
-                <h4>Retrouvez-nous sur</h4>
+              <div class="col-12 col-md-4 fo-social">
+                <h4 class="fo-follow">Retrouvez-nous sur</h4>
                 <br />
                 <img
                   class="fo-social-logo"
                   src="img/insta-logo.png"
                   alt="instagram logo"
                 />
-                <a href="https://www.instagram.com/leamo/">Instagram</a> <br />
+                <a href="https://www.instagram.com/leamo/"> Instagram </a>
+                <br />
                 <img
-                  class="fo-social-logo"
+                  class="fo-social-logo fo-facebook-logo"
                   src="img/facebook-logo.png"
                   alt="facebook logo"
                 />
-                <a href="https://www.facebook.com/alterfoodFR/">Facebook</a>
+                <a
+                  class="fo-facebook"
+                  href="https://www.facebook.com/alterfoodFR/"
+                >
+                  Facebook
+                </a>
               </div>
               <div class="col-12 fo-conditions">
                 <p>Conditions générales de vente</p>
@@ -183,7 +200,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </footer>
 
     <script src="js/main.js" type="module"></script>
   </body>

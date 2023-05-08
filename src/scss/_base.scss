@@ -42,3 +42,39 @@ video {
 /* ====================================
 // base rules
 // ==================================== */
+
+nav {
+  font-family: Ofelia display;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-around;
+  margin: 30px 0;
+}
+
+nav a {
+  margin-top: 20px;
+  text-decoration: none;
+}
+
+/* Déplacer dans une page scss peut-être ? */
+nav img {
+  width: 15%;
+}
+
+h2 {
+  font-family: HelveticaNeue-Bold;
+  font-size: 40px;
+  color: #000000;
+  margin: 0 0 0 165px;
+}
+
+footer {
+  background-color: #ff4949;
+}
+
+h4 {
+  font-family: OfeliaDisplay-Regular;
+  font-weight: 300;
+  font-size: 32px;
+  color: #000000;
+}
