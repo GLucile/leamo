@@ -1,3 +1,41 @@
+.cta {
+  margin: 110px 0 0 0;
+}
+
 .cta-body {
-  margin: 50px;
+  background-color: #ff4949;
+  font-family: OfeliaDisplay-Light;
+  font-size: 20px;
+  color: #ffffff;
+  letter-spacing: 0;
+  line-height: 40px;
+}
+
+.cta-leamo-body {
+  padding: 39px 103px 0 51px;
+  border-top-left-radius: 19px;
+  border-bottom-left-radius: 19px;
+}
+
+.cta-paradise-body {
+  padding: 27px 68px 0 38px;
+  border-top-right-radius: 19px;
+  border-bottom-right-radius: 19px;
+  margin-bottom: 150px;
+}
+
+.cta-button {
+  background-color: #ffffff;
+  border: none;
+  border-radius: 23px;
+  color: #000;
+  font-family: OfeliaDisplay-Bold;
+  font-size: 23px;
+  text-align: center;
+  padding: 6px 13px;
+  margin: 43px 0 35px 320px;
+}
+
+.cta-paradise-button {
+  margin: 115px 0 20px 0px;
 }
