@@ -1,0 +1,46 @@
+.countries {
+  margin: 150px 0 163px 0;
+}
+
+.countries h2 {
+  margin-bottom: 89px;
+}
+
+.co-france,
+.co-belgium,
+.co-swiss {
+  text-align: center;
+  font-family: OfeliaDisplay-Regular;
+  font-size: 20px;
+  color: #000000;
+  letter-spacing: 0;
+  text-align: center;
+  line-height: 14px;
+}
+
+.co-icon {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  margin-left: 80px;
+}
+
+.co-swiss img {
+  width: 70%;
+}
+
+.co-name {
+  font-family: OfeliaDisplay-Medium;
+  font-size: 25px;
+  color: #000000;
+  letter-spacing: 0;
+  margin: 20px 0 20px 0;
+}
+
+.co-name-belgium {
+  margin-top: 70px;
+}
+
+.co-name-swiss {
+  margin-top: 90px;
+}
