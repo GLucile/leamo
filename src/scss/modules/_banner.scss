@@ -1,0 +1,26 @@
+// .banner {
+//   background-image: url(../img/bottlesgroup-banner.webp);
+//   height: 600px;
+// }
+
+.banner {
+  background-image: url(../img/bottlesgroup-banner.webp);
+  background-repeat: no-repeat;
+  background-size: 1760px 830px;
+  height: 850px;
+  position: relative;
+}
+
+.banner img {
+  margin: 0;
+}
+
+h1 {
+  padding: 378px 0;
+  font-family: OfeliaDisplay-Extrabold;
+  font-size: 60px;
+  color: #ffffff;
+  letter-spacing: 0;
+  text-align: center;
+  box-sizing: border-box;
+}

@@ -9,6 +9,7 @@
   color: #ffffff;
   letter-spacing: 0;
   line-height: 40px;
+  height: 100%;
 }
 
 .cta-leamo-body {
@@ -17,11 +18,27 @@
   border-bottom-left-radius: 19px;
 }
 
+.cta-paradise {
+  margin-bottom: 150px;
+}
+
 .cta-paradise-body {
-  padding: 27px 68px 0 38px;
+  padding: 18px 80px 0 38px;
   border-top-right-radius: 19px;
   border-bottom-right-radius: 19px;
   margin-bottom: 150px;
+  height: 75%;
+  width: 100%;
+}
+
+.cta-engagements {
+  display: flex;
+  justify-content: start;
+  justify-content: space-between;
+  text-align: center;
+  margin-top: 25px;
+  color: #022543;
+  padding-right: 70px;
 }
 
 .cta-button {
@@ -33,9 +50,9 @@
   font-size: 23px;
   text-align: center;
   padding: 6px 13px;
-  margin: 43px 0 35px 320px;
+  margin: 43px 0 35px 230px;
 }
 
 .cta-paradise-button {
-  margin: 115px 0 20px 0px;
+  margin: 35px 0 10px 0px;
 }
