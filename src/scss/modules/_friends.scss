@@ -1,0 +1,47 @@
+.friends h2 {
+  margin-bottom: 48px;
+}
+
+.f-tensai,
+.f-chilled {
+  margin-bottom: 20px;
+}
+
+.f-name {
+  color: #fff;
+  text-transform: uppercase;
+  font-family: OfeliaDisplay-Medium;
+  font-size: 35px;
+}
+
+.f-name-tea {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.f-name-chill {
+  display: flex;
+  align-items: center;
+}
+
+.f-alter-tea {
+  background-color: #5c8b03;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.f-alter-chill {
+  background-color: #74b2e8;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.f-alter-dame {
+  background-color: #f7e3a3;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
