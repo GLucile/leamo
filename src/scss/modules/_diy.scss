@@ -1,0 +1,47 @@
+.diy {
+  margin: 150px 0 150px 0;
+}
+
+.di-intro {
+  font-family: OfeliaDisplay-Light;
+  font-size: 20px;
+  margin: 30px 0 80px 170px;
+}
+
+.di-object {
+  background-color: #fff;
+  padding: 4px 14px;
+  border-radius: 23px;
+  font-family: OfeliaDisplay-Extrabold;
+  font-size: 20px;
+  position: absolute;
+  z-index: 2;
+  bottom: 15px;
+  right: 27px;
+  // display: flex;
+  // justify-content: end;
+  // align-items: end;
+}
+
+.di-savon,
+.di-candle,
+.di-candlestick,
+.di-spray {
+  position: relative;
+}
+
+.di-savon,
+.di-candle {
+  margin-bottom: 30px;
+}
+
+.di-button {
+  background: #ff4949;
+  border-radius: 25px;
+  border: none;
+  font-family: OfeliaDisplay-Extrabold;
+  font-size: 21px;
+  color: #ffffff;
+  text-align: center;
+  padding: 11px 45px;
+}
