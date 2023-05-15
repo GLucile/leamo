@@ -6,3 +6,24 @@
   box-sizing: border-box;
   display: block;
 }
+
+/* Media queries */
+@media (max-width: 720px) {
+  .we-procuct,
+  .we-values,
+  .we-repices,
+  .we-places,
+  .we-search,
+  .we-shop {
+    display: none;
+  }
+}
+
+@media (max-width: 720px) {
+  nav {
+    width: 150%;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 20px;
+  }
+}

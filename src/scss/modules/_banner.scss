@@ -6,7 +6,7 @@
 .banner {
   background-image: url(../img/bottlesgroup-banner.webp);
   background-repeat: no-repeat;
-  background-size: 1760px 830px;
+  background-size: 1700px 770px;
   height: 850px;
   position: relative;
 }
@@ -23,4 +23,20 @@ h1 {
   letter-spacing: 0;
   text-align: center;
   box-sizing: border-box;
+}
+
+/* Media queries */
+@media (max-width: 996px) {
+  .banner {
+    background-size: 1660px 730px;
+    height: 724px;
+  }
+}
+
+@media (max-width: 996px) {
+  h1 {
+    font-size: 60px;
+    text-align: center;
+    padding: 252px 0;
+  }
 }
