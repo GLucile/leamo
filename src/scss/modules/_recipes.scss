@@ -1,0 +1,34 @@
+.re-back {
+  background-image: url(../img/bottles-leamo.webp),
+    linear-gradient(
+      90deg,
+      rgba(255, 73, 73, 0.95) 13%,
+      rgba(216, 216, 216, 0) 100%
+    );
+  background-repeat: no-repeat;
+  background-size: 1760px 830px;
+  height: 850px;
+  position: relative;
+  margin: 0 0 150px 0;
+}
+
+.re-description {
+  color: #fff;
+  font-family: OfeliaDisplay-Medium;
+  font-size: 23px;
+  font-weight: 600;
+  margin: 350px 0 0 0;
+  line-height: 32px;
+}
+
+.recipes button {
+  border: none;
+  background-color: #fff;
+  color: #000;
+  font-family: OfeliaDisplay-Extrabold;
+  font-weight: 700;
+  font-size: 20px;
+  padding: 6px 9px;
+  border-radius: 23px;
+  margin-top: 70px;
+}
