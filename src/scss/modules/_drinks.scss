@@ -1,0 +1,84 @@
+.dr-title {
+  margin-bottom: 89px;
+}
+
+.dr-cola,
+.dr-mate {
+  margin-bottom: 56px;
+}
+
+.dr-ginger,
+.dr-cola,
+.dr-mate,
+.dr-lemonade {
+  position: relative;
+}
+
+.dr-selection {
+  font-family: OfeliaDisplay-Bold;
+  font-size: 18px;
+  color: #000000;
+  text-align: center;
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  border-radius: 23px;
+  padding: 5px 17px;
+  position: absolute;
+  bottom: 15px;
+  left: 25px;
+}
+
+.dr-selector {
+  display: flex;
+}
+
+/* bouton acheter de ginger beer */
+.dr-selection-big button {
+  background-color: rgb(255, 255, 255);
+  font-family: OfeliaDisplay-Bold;
+  font-size: 23px;
+  border-radius: 23px;
+  padding: 5px 17px;
+  border: none;
+  margin: 0 0 0 280px;
+  position: absolute;
+  bottom: 10px;
+  right: 25px;
+}
+
+/* bouton nom ginger beer */
+.dr-ginger-name {
+  font-size: 23px;
+  position: absolute;
+  bottom: 10px;
+  left: 25px;
+}
+
+/* bouton acheter des 3 autres boissons */
+.dr-selection-little button {
+  background-color: rgb(255, 255, 255);
+  border: none;
+  font-family: OfeliaDisplay-Bold;
+  font-size: 18px;
+  text-align: center;
+  border-radius: 23px;
+  padding: 5px 17px;
+  position: absolute;
+  z-index: 2;
+  right: 25px;
+  bottom: 15px;
+}
+
+/* bouton tous nos gouts */
+.dr-alltastes {
+  background-color: #ff4949;
+  border: none;
+  color: #fff;
+  font-family: OfeliaDisplay-Extrabold;
+  font-size: 18px;
+  text-align: center;
+  border-radius: 39px;
+  padding: 12px 20px;
+  text-transform: uppercase;
+  margin: 65px 0 150px 0;
+}
