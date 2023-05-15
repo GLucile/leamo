@@ -32,3 +32,9 @@
   border-radius: 23px;
   margin-top: 70px;
 }
+
+.recipes button:hover {
+  background-color: #ff4949;
+  color: #fff;
+  box-shadow: 0 0 6px -3px rgba(0, 0, 0, 0.5);
+}

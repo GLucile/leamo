@@ -46,6 +46,11 @@
   right: 25px;
 }
 
+.dr-buy:hover {
+  background-color: #ff4949;
+  color: #fff;
+}
+
 /* bouton nom ginger beer */
 .dr-ginger-name {
   font-size: 23px;
@@ -81,4 +86,10 @@
   padding: 12px 10px;
   text-transform: uppercase;
   margin: 65px 0 150px 0;
+}
+
+.dr-alltastes:hover {
+  color: #ff4949;
+  background: #ffffff;
+  box-shadow: 0 0 9px 1px #e0d19c;
 }
