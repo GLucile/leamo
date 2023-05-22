@@ -45,3 +45,22 @@
   justify-content: end;
   align-items: center;
 }
+
+/* Media queries */
+
+@media (max-width: 996px) {
+  .friends h2 {
+    font-size: 27px;
+    margin: 0 0 35px 0;
+    text-align: center;
+  }
+  .f-name {
+    font-size: 25px;
+  }
+  .f-alter-tea,
+  .f-alter-chill,
+  .f-alter-dame {
+    justify-content: center;
+    padding: 19px 0;
+  }
+}
