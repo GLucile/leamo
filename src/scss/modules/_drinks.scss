@@ -104,3 +104,47 @@
   background: #ffffff;
   box-shadow: 0 0 9px 1px #e0d19c;
 }
+
+/* Media queries */
+@media (max-width: 996px) {
+  .dr-title {
+    margin: -140px 0 40px 0;
+    text-align: center;
+    font-size: 35px;
+  }
+  .dr-ginger-promo-one {
+    display: none;
+  }
+  .dr-ginger-promo-two {
+    display: block;
+    border-radius: 30px;
+  }
+  .dr-ginger {
+    margin-bottom: 11px;
+  }
+  .dr-ginger-name {
+    font-size: 15px;
+    padding: 8px 17px;
+  }
+  .dr-selection-big button {
+    font-size: 18px;
+  }
+  .dr-selector,
+  .dr-buy {
+    font-size: 20px;
+  }
+  .dr-cola,
+  .dr-mate {
+    margin-bottom: 11px;
+  }
+  .dr-cola-promo,
+  .dr-mate-promo,
+  .dr-lemonade-promo {
+    border-radius: 15px;
+  }
+  .dr-alltastes {
+    font-size: 13px;
+    padding: 14px 20px;
+    margin: 25px 0 78px 0px;
+  }
+}
