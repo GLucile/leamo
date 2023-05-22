@@ -44,3 +44,46 @@
 .co-name-swiss {
   margin-top: 90px;
 }
+
+/* Media queries */
+@media (max-width: 996px) {
+  .countries h2 {
+    margin: -120px 0 30px 0;
+    font-size: 30px;
+    text-align: center;
+  }
+  .co-france,
+  .co-belgium {
+    margin-bottom: 40px;
+  }
+  .co-icon {
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    margin: 0;
+  }
+  .co-swiss .co-icon {
+    width: 110%;
+    margin: 20px 0 0 0;
+  }
+  .co-name {
+    font-size: 23px;
+    text-align: start;
+    margin: 5px 0 5px 0;
+  }
+  .co-adresses {
+    font-size: 13px;
+    font-weight: 600;
+    text-align: start;
+    line-height: 11px;
+  }
+  .co-name-france {
+    margin: 10px 0 0 0;
+  }
+  .co-belgium .co-name {
+    text-align: end;
+  }
+  .co-belgium .co-adresses {
+    text-align: end;
+  }
+}
