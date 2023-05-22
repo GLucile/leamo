@@ -7,6 +7,9 @@ h4 {
   margin-top: 90px;
 }
 
+.fo-mail {
+  margin-bottom: -20px;
+}
 .fo-shop {
   margin-top: 38px;
 }
@@ -45,4 +48,25 @@ footer a {
   display: flex;
   justify-content: space-around;
   margin-bottom: 28px;
+}
+
+/* Media queries */
+@media (max-width: 996px) {
+  .fo-leamo-logo {
+    width: 60%;
+    margin: 50px 0 45px;
+  }
+  .fo-mail {
+    margin: 0 0 -20px 0;
+  }
+  .fo-follow {
+    margin-top: 45px;
+  }
+  .fo-social {
+    margin: 0 0 65px 0;
+  }
+  .fo-conditions {
+    font-size: 8px;
+    margin: 0 0 10px 0;
+  }
 }
