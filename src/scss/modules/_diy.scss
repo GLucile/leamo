@@ -52,3 +52,45 @@
   background-color: #fff;
   box-shadow: 0 0 9px 1px #e0d19c;
 }
+
+/* Media queries */
+@media (max-width: 996px) {
+  .diy {
+    margin: 70px 0 150px 0;
+  }
+  .diy h2 {
+    margin: 0;
+    text-align: center;
+    font-size: 33px;
+  }
+  .di-intro {
+    margin: 35px 13px 25px 13px;
+    font-size: 16px;
+  }
+  .di-savon,
+  .di-candle {
+    margin-bottom: -20px;
+  }
+  .di-spray {
+    margin-bottom: -135px;
+  }
+  .di-savon img,
+  .di-candle img,
+  .di-spray img {
+    clip-path: polygon(0 4%, 100% 4%, 100% 84%, 0 84%);
+  }
+  .di-candlestick img {
+    clip-path: polygon(0 39%, 100% 39%, 100% 90%, 0 90%);
+  }
+  .di-object {
+    margin: 0 0 20px 0px;
+    font-size: 20px;
+  }
+  .di-candlestick .di-object {
+    margin: 0 0 28px 0;
+  }
+  .di-button {
+    font-size: 19px;
+    margin: 15px 40px 40px;
+  }
+}
