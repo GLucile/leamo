@@ -47,7 +47,7 @@
 }
 
 .cta-cocktail {
-  height: 432px;
+  height: 220px;
   border-top-left-radius: 19px;
   border-bottom-left-radius: 19px;
 }
@@ -66,4 +66,44 @@
 
 .cta-paradise-button {
   margin: 35px 0 10px 0px;
+}
+
+/* Media queries */
+@media (max-width: 996px) {
+  .cta-body {
+    border-radius: 0;
+    font-family: OfeliaDisplay-Medium;
+    font-size: 11px;
+    line-height: 20px;
+  }
+  .cta-leamo-body {
+    padding: 12px 20px 0px;
+  }
+  .cta-lemons {
+    border-radius: 0;
+  }
+  .cta-button {
+    font-size: 14px;
+    margin: 18px 0 24px 0;
+    padding: 3px 15px;
+  }
+  .cta-engagements {
+    display: none;
+  }
+  .cta-cocktail {
+    border-radius: 0;
+  }
+  .cta-paradise {
+    margin-top: 30px;
+  }
+  .cta-paradise-body {
+    margin-bottom: 0px;
+    padding: 15px 43px 70px 20px;
+  }
+}
+
+@media (min-width: 996px) {
+  .cta-cocktail {
+    height: 432px;
+  }
 }
