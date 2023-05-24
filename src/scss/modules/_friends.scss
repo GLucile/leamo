@@ -46,6 +46,19 @@
   align-items: center;
 }
 
+.f-product {
+  padding-right: 0;
+}
+
+.f-portrait {
+  border-top-right-radius: 19px;
+  border-bottom-right-radius: 19px;
+}
+
+.f-portrait-chill {
+  border-top-left-radius: 19px;
+  border-bottom-left-radius: 19px;
+}
 /* Media queries */
 
 @media (max-width: 996px) {
@@ -62,5 +75,13 @@
   .f-alter-dame {
     justify-content: center;
     padding: 19px 0;
+  }
+  .f-portrait {
+    border-top-left-radius: 19px;
+    border-bottom-right-radius: 0;
+  }
+  .f-portrait-chill {
+    border-top-right-radius: 19px;
+    border-bottom-left-radius: 0;
   }
 }
